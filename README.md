@@ -1,8 +1,8 @@
-# Petemoss
+# Love Light
 
-Petemoss is a semi-calligraphic brush script. It is inspired by the forms created using a Pentel™ color brush.
+Adopted from an original hand lettered work, Love Light is an adaptation of another font. Its heart embellishments add a bit of romantic fantasy to this beautiful calligraphic script.
 
-![Sample Image](Documentation/image1.png)
+![Sample Image](documentation/image1.png)
 
 ## Building the Fonts
 
