@@ -1,5 +1,5 @@
 {
-.appVersion = "1356";
+.appVersion = "1352";
 DisplayStrings = (
 "/apostrophemod/doubleprimemod/primemod/dieresiscomb/dotaccentcomb/gravecomb/acutecomb/hungarumlautcomb/caroncomb.alt/circumflexcomb/caroncomb/brevecomb/ringcomb/tildecomb/macroncomb/hookabovecomb/dblgravecomb/breveinvertedcomb/commaturnedabovecomb/horncomb/dotbelowcomb/dieresisbelowcomb A/commaaccentcomb/cedillacomb/ogonekcomb/brevebelowcomb/macronbelowcomb/strokeshortcomb/brevecomb_acutecomb/brevecomb_gravecomb/brevecomb_hookabovecomb/brevecomb_tildecomb/circumflexcomb_acutecomb/circumflexcomb_gravecomb/circumflexcomb_hookabovecomb/circumflexcomb_tildecomb"
 );
@@ -46843,16 +46843,7 @@ width = 352;
 );
 instances = (
 {
-customParameters = (
-{
-name = postscriptFullName;
-value = "Love Light-Regular";
-},
-{
-name = postscriptFontName;
-value = "Love Light-Regular";
-}
-);
+interpolationWeight = 400;
 instanceInterpolations = {
 "47CF47DF-B93A-4126-8606-39E7B9FB561A" = 1;
 };
