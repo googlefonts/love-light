@@ -67,7 +67,7 @@ name = ccmp;
 },
 {
 automatic = 1;
-code = "lookup locl_latn_0 {\012	script latn;\012	language AZE;\012	sub i by idotaccent;\012	language CRT;\012	sub i by idotaccent;\012	language KAZ;\012	sub i by idotaccent;\012	language TAT;\012	sub i by idotaccent;\012	language TRK;\012	sub i by idotaccent;\012} locl_latn_0;\012\012lookup locl_latn_1 {\012	script latn;\012	language ROM;\012	sub Scedilla by Scommaaccent;\012	sub scedilla by scommaaccent;\012	sub Tcedilla by Tcommaaccent;\012	sub tcedilla by tcommaaccent;\012	language MOL;\012	sub Scedilla by Scommaaccent;\012	sub scedilla by scommaaccent;\012	sub Tcedilla by Tcommaaccent;\012	sub tcedilla by tcommaaccent;\012} locl_latn_1;\012\012lookup locl_latn_2 {\012	script latn;\012	language CAT;\012	sub l periodcentered' l by periodcentered.loclCAT;\012	sub L periodcentered' L by periodcentered.loclCAT;\012} locl_latn_2;\012";
+code = "lookup locl_latn_0 {\012	script latn;\012	language AZE;\012	language CRT;\012	language KAZ;\012	language TAT;\012	language TRK;\012	sub i by idotaccent;\012} locl_latn_0;\012\012lookup locl_latn_1 {\012	script latn;\012	language ROM;\012	language MOL;\012	sub Scedilla by Scommaaccent;\012	sub scedilla by scommaaccent;\012	sub Tcedilla by Tcommaaccent;\012	sub tcedilla by tcommaaccent;\012} locl_latn_1;\012\012lookup locl_latn_2 {\012	script latn;\012	language CAT;\012	sub l periodcentered' l by periodcentered.loclCAT;\012	sub L periodcentered' L by periodcentered.loclCAT;\012} locl_latn_2;\012";
 name = locl;
 },
 {
@@ -119,7 +119,7 @@ name = ss01;
 fontMaster = (
 {
 alignmentZones = (
-"{700, 20}",
+"{700, 15}",
 "{650, 15}",
 "{320, 15}",
 "{0, -15}",
@@ -26035,30 +26035,19 @@ unicode = 012D;
 {
 color = 11;
 glyphname = icaron;
-lastChange = "2021-11-22 01:51:05 +0000";
+lastChange = "2021-11-22 02:15:00 +0000";
 layers = (
 {
-background = {
 components = (
 {
-name = dotlessi;
-},
-{
-name = caroncomb;
-}
-);
-};
-components = (
-{
-name = dotlessi;
-transform = "{1, 0, 0, 1, 0, 10}";
+name = idotless;
 },
 {
 name = caroncomb;
 }
 );
 layerId = "47CF47DF-B93A-4126-8606-39E7B9FB561A";
-width = 124;
+width = 174;
 }
 );
 unicode = 01D0;
